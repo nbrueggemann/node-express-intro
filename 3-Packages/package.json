@@ -1,0 +1,16 @@
+{
+  "name": "3-Packages",
+  "version": "1.0.0",
+  "description": "npm is a package manager for javascript and is the default package  manager for node js.",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
