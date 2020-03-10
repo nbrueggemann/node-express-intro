@@ -31,9 +31,25 @@ To run this example do the following:
 node index.js
 ```
 
-When you run this it should log out thata server is listening on port 3000.
+When you run this it should log out that a server is listening on port 3000.
 If you receive an error that says: Error: listen EADDRINUSE: address already in use :::3000 it means that there is an app already running that's using port 3000.  Either close that app or pick a different port for this app.
 
 Now that the app is running ipen a browser and enter the url:  http://localhost:3000
 
 This should print: Hello World! in your browser.
+
+## Introducing Postman
+
+We can successfully test our route that uses GET with the browser.  Routes that use POST are a little bit more complex.  One of the best tools I've come across to test any web services is Postman (https://www.postman.com/)
+
+Now using Postman change the GET to a POST and send a request to the following url: localhost:3000/handlePost
+
+You should get back a response of:
+
+```
+{
+    "message": "This is a response that returns JSON"
+}
+```
+
+For almost everything I typically do I use either a GET or a POST and even eith those 2 options I typically favor POST over GET simply because it gives me some additional flexibility in the information I can pass from the client (typically a browser) and the express server.

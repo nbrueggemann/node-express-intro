@@ -1,0 +1,16 @@
+{
+  "name": "4-Express",
+  "version": "1.0.0",
+  "description": "Now that we know a bit about npm packages we can introduce Express.  Express is a npm package!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

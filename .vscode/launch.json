@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "1-SimpleIntro",
+            "program": "${workspaceFolder}\\1-SimpleIntro\\index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "2-Classes",
+            "program": "${workspaceFolder}\\2-Classes\\index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "3-Packages",
+            "program": "${workspaceFolder}\\3-Packages\\index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "4-Express",
+            "program": "${workspaceFolder}\\4-Express\\index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "5-PassingData",
+            "program": "${workspaceFolder}\\5-PassingData\\index.js"
+        }
+    ]
+}
